@@ -12,3 +12,12 @@ const stopButton = document.getElementById('stop-button');
 const textInput = document.getElementById('text');
 const speedInput = document.getElementById('speed');
 
+
+playButton.addEventListener('click', () => {
+    playText(textInput.value);
+});
+
+pauseButton.addEventListener('click', pauseText);
+
+stopButton.addEventListener('click', stopText);
+
